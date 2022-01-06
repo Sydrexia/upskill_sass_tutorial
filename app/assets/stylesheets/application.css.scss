@@ -41,7 +41,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .home-callout {
@@ -66,3 +66,13 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     opacity: 0.75;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background: whitesmoke;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid whitesmoke;
+    &:hover, &:focus {
+    background: #203A43;
+    }
+}
